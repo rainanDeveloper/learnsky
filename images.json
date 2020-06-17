@@ -1,0 +1,23 @@
+{
+	"images":["12472.jpg", "46427.jpg", "24498.jpg", "26429.jpg", "42339.jpg", "48918.jpg", "62244.jpg", "85701.jpg", "73929.jpg", "71686.jpg", "37150.jpg", "73666.jpg", "21248.jpg", "94841.jpg", "19803.png", "79214.jpg", "91319.jpg"],
+	"fetchs":{
+		"0":"Constelação de órion",
+		"1":"Júpiter",
+		"2":"Saturno",
+		"3":"Galáxia de andrômeda",
+		"4":"Ceres",
+		"5":"Lua",
+		"6":"Plutão",
+		"7":"Marte",
+		"8":"Galáxia espiral",
+		"9":"Nebulosa de órion",
+		"10":"Nebulosa de helix(Olho de Deus)",
+		"11":"Nebulosa do caranguejo",
+		"12":"Vênus",
+		"13":"Calisto",
+		"14":"Netuno",
+		"15":"Nebulosa de Carina",
+		"16":"Plêiades"
+	},
+	"answers":["Constelação de órion", "Aneis de Saturno", "Júpiter", "Calisto", "Netuno","Nebulosa de helix(Olho de Deus)", "Saturno", "Vênus", "Marte", "Galáxia de andrômeda", "Plêiades", "Ceres", "Nebulosa de Carina", "Plutão", "Galáxia espiral"]
+}

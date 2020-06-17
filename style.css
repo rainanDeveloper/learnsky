@@ -1,0 +1,237 @@
+html, body {
+			padding: 0;
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			font-size: 1.2em;
+			font-family: arial;
+		}
+
+		div.PlayerInfo {
+			float: right;
+		}
+
+		a.backStart{
+			padding: 10px;
+			text-align: center;
+			width: 100%;
+			float: left;
+			box-sizing: border-box;
+			border-radius: 5px;
+			background-color: #2176ff;
+			color: white;
+			border: solid 2px #1052bc;
+			text-decoration: none;
+		}
+
+		div.activeElement{
+			background-color: #2176ff;
+			color: white;
+			border: solid 2px #1052bc;
+		}
+
+		.container {
+			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			box-sizing: border-box;
+			min-height: 400px;
+		}
+
+		.questSet {
+			margin-top: 30px;
+			min-width: 450px;
+			max-width: 500px;
+			width: 35%;
+		}
+
+		div.form {
+			margin-top: 30px;
+			min-width: 350px;
+			max-width: 500px;
+			width: 35%;
+		}
+
+		div.header{
+			width:100%;
+			text-align: center;
+			padding: 20px;
+			box-sizing: border-box;
+		}
+
+		p.desc{
+			width: 100%;
+			text-align: center;
+			padding: 5px;
+			box-sizing: border-box;
+			font-size: 0.6em;
+		}
+
+		input {
+			width: 100%;
+			box-sizing: border-box;
+			padding: 10px;
+			margin: 10px 0;
+			border-radius: 5px;
+			border:solid 2px #ccc;
+		}
+
+		input[type="submit"], input[type="button"]{
+			background-color: #2176ff;
+			color: white;
+			border: solid 2px #1052bc;
+			cursor: pointer;
+			transition: 0.2s;
+		}
+
+		input[type="submit"]:hover, input[type="button"]:hover{
+			border: solid 2px white;
+			font-size: 0.8em;
+		}
+
+		.errorInput {
+			border: solid 2px #db1515;
+		}
+
+		.image {
+			width: 100%;
+			display: flex;
+			height: 35%;
+		}
+
+		.alert{
+			background-color: #34aa2e;
+			padding: 20px;
+			color: white;
+			width: 35%;
+			box-sizing: border-box;
+			height: 50%;
+			display: block;
+			float: left;
+
+		}
+
+		.rightElel{
+			background-color: #00f204 !important;
+			border: solid 2px #0eb200 !important;
+		}
+
+		.wrongElel{
+			background-color: #db1515 !important;
+			border: solid 2px #ff1818 !important;
+		}
+
+		div.buttonNextAnswer[data-status="0"]{
+			padding: 5px;
+			border-radius: 4px;
+			background-color: #e2e2e2;
+			border: solid 2px #bbb;
+			color: #bbb;
+			cursor: auto;
+		}
+
+		.answerElement{
+			padding: 5px;
+			border-radius: 4px;
+			background-color: #e2e2e2;
+			margin: 5px 0;
+			border: solid 2px #bbb;
+			text-align: center;
+			cursor: pointer;
+			transition: 0.5s
+		}
+
+		.buttonNextAnswer{
+			padding: 5px;
+			border-radius: 4px;
+			background-color: #00f204;
+			margin: 5px 0;
+			border: solid 2px #0eb200;
+			text-align: center;
+			cursor: pointer;
+			transition: 0.5s;
+			color: white;
+		}
+
+		img#referenceImage {
+			width: 100%;
+			object-fit: cover;
+		}
+
+		.headQuest {
+			width: 100%;
+			font-size: 0.5em;
+		}
+
+		.hidden {
+			display: none;
+		}
+
+		div.error{
+			padding: 10px;
+			width: 100%
+			box-sizing: border-box;
+			background-color: rgba(219, 24, 24, 0.7);
+			color: white;
+			font-size: 0.8em;
+			text-align: center;			
+		}
+
+		.asked {
+			float: left;
+		}
+
+		.footer{
+			bottom: 0;
+			width: 100%;
+			padding: 10px;
+			background-color: #353535;
+			color: white;
+			display: flex;
+			font-size: 0.6em;
+			box-sizing: border-box;
+		}
+
+		.leftSided {
+			float: left;
+		}
+
+		.rightSided {
+			float: right;
+			margin: auto;
+		}
+
+		@media(max-width: 400px){
+			.questSet {
+			margin-top: 30px;
+			min-width: initial;
+			max-width: 500px;
+			width: 90%;
+			margin-bottom: 60px;
+		}
+
+		div.form {
+			margin-top: 30px;
+			min-width: initial;
+			max-width: 500px;
+			margin-bottom: 60px;
+			width: 100%;
+		}
+
+		.alert{
+			width: 90%;
+		}
+
+		form.formulario{
+			width: 100%;
+		}
+
+		.image{
+			height: 25%;
+		}
+
+		span.rightSided {
+			display: none;
+		}
+		}
